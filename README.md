@@ -17,3 +17,18 @@
 <p align="center">New issues will be added in to the List Page</p>
 <div align="center"><img width="199" alt="image" src="https://user-images.githubusercontent.com/33627638/173580991-cf5c6599-200e-468b-ab5e-345379188b98.png"></div>
 <p align="center">Detail Page</p>
+
+* Therefore, for frontend, there are four html files. 
+  1. index.html for showing the top page.
+  2. list.html for showing the issues list on list page.
+  3. detail.html for showing the details of each issue on detail page.
+  4. creationForm.html for showing the input form on the issue submit page.
+ - (Misunderstood concept) :
+    1.MVC(Model View Controller) is a design pattern for presentation layer, and it's triangular. User interacts with Controller and see View. View could be updated directly from Model. And Controller can manipulate the Model. Microservice
+    2.Three-tier architecture is system architecture for the whole system,and it's linear. Presentation tier send request and get respond from Business Logic tier. Business Logic Tier send query and get respond from Data Access Tier.Macroservice.
+     
+ * Code is implemented based on three-tier architecture.
+   1.Presentation tier: Firstly, we created IndexController class to control the  
+   2.Business Logic tier:
+   3.Data Access tier:
+ - 
