@@ -31,6 +31,6 @@
 
  * Code is implemented based on three-tier architecture.
    1. Presentation tier: Firstly, we created IndexController class to return the index.html to the view. And IssueController return the list.html,detail.html,creationForm.html to the view and pass the input data from creationForm.html to model. An IssueForm class for the input data.
-   2. Business Logic tier:
-   3. Data Access tier:
+   2. Business Logic tier: IssueService class to get selected results and add new elements to the data access tier. And IssueEntity for the issue entity includes id, summary and description.
+   3. Data Access tier: Insert and select from the database.
  
