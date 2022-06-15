@@ -29,7 +29,7 @@
   2. Three-tier architecture is system architecture for the whole system,and it's linear. Presentation tier send request and get respond from Business Logic tier. Business Logic Tier send query and get respond from Data Access Tier.Macroservice.
      
  * Code is implemented based on three-tier architecture.
-   1. Presentation tier: Firstly, we created IndexController class to control the  
+   1. Presentation tier: Firstly, we created IndexController class to return the index.html to the view. And IssueController return the list.html,detail.html,creationForm.html to the view and pass the input data from creationForm.html to model. An IssueForm class for the input data.
    2. Business Logic tier:
    3. Data Access tier:
  
