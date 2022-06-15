@@ -27,7 +27,8 @@
 * Misunderstood concept
   1. MVC(Model View Controller) is a design pattern for presentation layer, and it's triangular. User interacts with Controller and see View. View could be updated directly from Model. And Controller can manipulate the Model. Microservice
   2. Three-tier architecture is system architecture for the whole system,and it's linear. Presentation tier send request and get respond from Business Logic tier. Business Logic Tier send query and get respond from Data Access Tier.Macroservice.
-     
+     ![image](https://user-images.githubusercontent.com/33627638/173847289-0ed7743a-d675-4d85-bee9-21a819d9a25c.png)
+
  * Code is implemented based on three-tier architecture.
    1. Presentation tier: Firstly, we created IndexController class to return the index.html to the view. And IssueController return the list.html,detail.html,creationForm.html to the view and pass the input data from creationForm.html to model. An IssueForm class for the input data.
    2. Business Logic tier:
